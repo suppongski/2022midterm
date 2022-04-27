@@ -1,6 +1,15 @@
-# 컴퓨터 알고리즘 2022 1학기 중간고사
+# Ford-Fulkerson 알고리즘 조사  
 *인천대학교 정보통신공학과 201901687 양수진*
-
+# 목차
+    1. Ford-Fulkerson 알고리즘이란?
+    2. 최대유량 알고리즘이란?
+    3. Ford-Fulkerson 알고리즘 실행과정
+    4. Ford-Fulkerson 알고리즘 코드 실행결과
+    5. Edmonds-Karp 알고리즘이란?
+    6. Edmonds-Karp 알고리즘 실행과정
+    7. Edmonds-Karp 알고리즘 코드 실행결과
+    8. 각 알고리즘 코드의 성능분석
+    9. 소감
 
 1. **Ford-Fulkerson 알고리즘이란?**
 * 최대유량 알고리즘을 해결할때 그래프의 경로를 찾는과정에서 깊이우선탐색 *(DFS)* 을 활용하는 알고리즘이다.
@@ -77,7 +86,7 @@ Ford-Fulkerson 알고리즘과 경로탐색시 탐색방법에만 차이가 있�
 <img width="552" alt="애드몬드 실행결과창" src="https://user-images.githubusercontent.com/101388182/165446024-87b67e07-eeff-4cd8-bc8e-f8a3fcf7664a.PNG">
 
 ---
-8. **2개 코드의 성능분석**
+8. **각  코드의 성능분석**
 * Ford-Fulkerson의 시간복잡도  
 E = 엣지, V = 정점, F = 최대유량 일때 ***O(V + E) F)***
 * Edmonds-Karp의 시간복잡도  
